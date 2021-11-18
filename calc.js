@@ -66,7 +66,7 @@ document.querySelector('.buttons').onclick = (event) => {
                 break;
             case('/'):
                 if (b === '0') {
-                    out.textContent = 'юра хой';
+                    out.textContent = 'ошибка';
                     a = '';
                     b = '';
                     sign = ''; 
