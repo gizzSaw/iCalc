@@ -37,9 +37,10 @@ document.querySelector('.buttons').onclick = (event) => {
         } else if (a!=='' && b!=='' && finish) {
             b = key;
             finish = false;
+            out.textContent = b
         } else {
             b += key;
-            out.textContent = a;
+            out.textContent = b;
         }
         console.table (a, b, sign);
         return;
@@ -65,7 +66,7 @@ document.querySelector('.buttons').onclick = (event) => {
                 break;
             case('/'):
                 if (b === '0') {
-                    out.textContent = 'рамзес лох';
+                    out.textContent = 'юра хой';
                     a = '';
                     b = '';
                     sign = ''; 
